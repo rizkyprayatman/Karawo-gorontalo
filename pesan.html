@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name="dicoding:email" content="r.prayatman@gmail.com">
+  <title>Karawo Gorontalo Indonesia</title>
+  <link rel="icon" href="image/domain.png" type="image/x-icon">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/pesan.css">
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Karawo Gorontalo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pelatihan.html">Pelatihan</a></li>
+        <li><a href="toko.html">Toko</a></li>
+        <li><a href="hubungi-kami.html">Kontak Kami</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pelatihan.html">Pelatihan</a></li>
+        <li><a href="toko.html">Toko</a></li>
+        <li><a href="hubungi-kami.html">Kontak Kami</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container" style="margin-top: -35px; padding-bottom: 25px;">
+        <br>
+        <div id="pesan" class="toggle">
+          <h3 class="header center light-blue-text text1">Pesan Karawo</h3>
+            <input class="tujuan" type="hidden" value="085144011422" /> <!-- No. WhatsApp -->
+
+            <label style="text-align: left;">Nama :
+            <input class="nama" type="text" placeholder="Nama Lengkap" />
+            </label>
+
+            <label style="text-align: left;">Nomor telepon :
+                <input id="nomor" class="nomor" type="text" placeholder="08xxxxxxxxxx" />
+            </label>
+
+            <input type="hidden" id="date"/> 
+            
+            <label style="text-align: left;">Product : <br>
+                <select class="option" id="product">
+                    <option value="-">Pilih</option>
+                    <option value="Bahan Kemeja Pria Karawo">Kemeja Pria</option>
+                    <option value="Bahan Kemeja Wanita Karawo">Kemeja Wanita</option>
+                    <option value="Jilbab Karawo">Jilbab Karawo</option>
+                    <option value="Shawl Karawo">Shawl Karawo</option>
+                    <option value="Kipas Karawo">Kipas Karawo</option>
+                </select>
+            </label>
+
+            <label style="text-align: left;">Catatan :
+                <input id="catatan" class="catatan" type="text" placeholder="Jumlah Product, Warna, atau catatan untuk penjual" />
+            </label>
+
+            <label style="text-align: left;">Alamat :
+                <input id="alamat" class="alamat" type="text" placeholder="Alamat lengkap, untuk pengecekkan Ongkir" />
+            </label>
+            <p class="header light-blue-text text1">Metode Pembayaran</p>
+            <label>Bank :
+                <select class="option" id="bank" name="bank" type="option">
+                    <option value="-">Pilih</option>
+                    <option value="BRI">BRI</option>
+                    <option value="OVO">OVO</option>
+                    <option value="GO-Pay">GO-Pay</option>
+                    <option value="DANA">DANA</option>
+                    <option value="Link Aja">Link Aja</option>
+                </select>
+            </label>
+
+            <label style="text-align: left;">Atas Nama :
+              <input id="nama1" class="nama1" type="text" placeholder="Nama Lengkap" />
+            </label>
+
+            <label style="text-align: left;">No Rekening :
+              <input id="nobank" class="nobank" type="text" placeholder="No Rekening" />
+            </label>
+          
+            
+            <div class="container">
+                <a class="submit" style="font-size: small;">PESAN</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  
+    <div class="container"  style="padding-bottom: 25px; padding-top: 25px;">
+        <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="image/arturo-rey-5yP83RhaFGA-unsplash.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Belanja Sekarang</h3>
+                  <h5 class="light grey-text text-lighten-3">Pilih yang diinginkan</h5>
+                </div>
+              </li>
+              <li>
+                <img src="image/javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Pilih yang Kamu Inginkan</h3>
+                  <h5 class="light grey-text text-lighten-3">Silahkan pilih product yang tersedia</h5>
+                </div>
+              </li>
+              <li>
+                <img src="image/christiann-koepke-5SsFQ6oNbX4-unsplash.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Lakukan Pembayaran</h3>
+                  <h5 class="light grey-text text-lighten-3">Melayani Pembayaran melalui Transfer Bank ataupun E-Wallet <br>
+                        Mudah dan Aman</h5>
+                </div>
+              </li>
+              <li>
+                <img src="image/christopher-lemercier-vX4bvIvO2FY-unsplash.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Tunggu Pesanan Anda</h3>
+                  <h5 class="light grey-text text-lighten-3">Pesanan akan diantarkan ke rumah anda</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+    </div>
+  
+    <footer class="page-footer light-blue lighten-1">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text text4">Karawo Gorontalo</h5>
+              <p class="grey-text text-lighten-4 text4">
+                Karawo Gorontalo sebuah seni khas Provinsi Gorontalo yang memiliki nilai tinggi terus berkembang sebagai aktivitas berkesenian, kegiatan adat, komoditas, simbol identitas budaya dan budaya massa
+              </p>
+    
+    
+            </div>
+            <div class="col l3 s12 dis1">
+              <h5 class="white-text">Menu</h5>
+              <ul>
+                <li><a class="white-text" href="index.html">Home</a></li>
+                <li><a class="white-text" href="pelatihan.html">Pelatihan</a></li>
+                <li><a class="white-text" href="toko.html">Toko</a></li>
+                <li><a class="white-text" href="hubungi-kami.html">hubungi Kami</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12 dis1">
+              <h5 class="white-text">Link</h5>
+              <ul>
+                <li><a class="white-text" href="https://www.gorontaloprov.go.id/">PROVINSI GORONTALO</a></li>
+                <li><a class="white-text" href="https://www.kemenparekraf.go.id/">KEMENPAREKRAF</a></li>
+                <li><a class="white-text" href="https://www.youtube.com/results?search_query=festival+karawo">FESTIVAL KARAWO</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+              <p style="color:white">
+                Copyright &copy; <script type="text/javascript">
+                document.write(new Date().getFullYear());
+                </script> - Karawo Gorontalo.
+            </p>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <a class='fixed-whatsapp' href='https://api.whatsapp.com/send?phone=6285144011422&text=Halo%20admin%20%0ASaya%20mau%20bertanya' rel='nofollow noopener' target='_blank' title='Whatsapp'></a>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/tanggal.js"></script>
+  <script src="js/pesan.js"></script>
+
+</body>
+</html>
